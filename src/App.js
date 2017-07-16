@@ -8,19 +8,17 @@ import {
 import './App.css';
 
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Header from './components/Header';
+import Products from './pages/Products/Products';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Header></Header>
         <Router>
           <div>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
+              <li><Link to="/Products">Products</Link></li>
             </ul>
 
             <hr/>
