@@ -8,7 +8,7 @@ class Product extends React.Component {
 			<div className="product--container">
 				<h3>{this.props.id}</h3>
 				<h3>{this.props.name}</h3>
-				<h3>&pound;{this.props.price}</h3>
+				<h3>{this.props.price}</h3>
 
 			</div>
 		);
